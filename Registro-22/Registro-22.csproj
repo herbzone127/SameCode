@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Registro_22</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Material.Icons.WPF" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Syncfusion.Licensing" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Themes.MaterialLight.WPF" Version="19.4.0.48" />
+    <PackageReference Include="syncfusion.ui.wpf.net" Version="19.4.0.48" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Registro.Core\Registro.Core.csproj" />
+    <ProjectReference Include="..\Registro.Service\Registro.Service.csproj" />
+  </ItemGroup>
+
+</Project>
